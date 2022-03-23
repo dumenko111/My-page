@@ -13,7 +13,20 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 		<style>
-
+			.card {
+				border-radius: 1em;
+				text-align: center;
+				padding: 1em;
+			}
+			.card:hover {
+				background-color: rgba(0, 0, 0, 0.1);
+			}
+			.card img {
+				border-radius: 50%;
+				width: 60%;
+				margin: auto;
+			}
+			
 		</style>
 </head>
 <body>
@@ -44,14 +57,38 @@
 			</div>
 		</div>
 	</nav>
-
-<div class="card" style="width: 18rem;">
-	<img src="..." class="card-img-top" alt="My image">
-	<div class="card-body">
-		<h5 class="card-title">Card title</h5>
-		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-			content.</p>
-		<a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="container my-5">
+	<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+		<div class="col">
+			<div class="card">
+				<img src="https://picsum.photos/id/1036/300" class="card-img-top" alt="My image">
+				<div class="card-body">
+					<h5 class="card-title">Mountains</h5>
+					<p class="card-text">to visit the Ukrainian mountains.</p>
+					<a href="https://picsum.photos/id/1036/1500" target="_blank" class="btn btn-primary">Large photo</a>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="https://picsum.photos/id/1041/300" class="card-img-top" alt="My image2">
+				<div class="card-body">
+					<h5 class="card-title">Sea</h5>
+					<p class="card-text">to organize a vacation at sea.</p>
+					<a href="https://picsum.photos/id/1041/1500" target="_blank" class="btn btn-primary">Large photo</a>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="https://picsum.photos/id/164/300" class="card-img-top" alt="My image3">
+				<div class="card-body">
+					<h5 class="card-title">Other cities</h5>
+					<p class="card-text">family trip to Europe.</p>
+					<a href="https://picsum.photos/id/164/1500" target="_blank" class="btn btn-primary">Large photo</a>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 </body>

@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Libre Barcode EAN13 Text
+- Font Author: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
+- Font Source: http://fonts.gstatic.com/s/librebarcodeean13text/v17/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96PAGEki52WfA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
